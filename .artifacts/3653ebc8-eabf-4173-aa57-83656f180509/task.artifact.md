@@ -1,0 +1,6 @@
+- [ ] 1. Create data models (`Contact.kt`, `Message.kt`) and `DataSource.kt`
+- [ ] 2. Create XML layouts for contact list and chat screen (item_contact, item_message_sent, item_message_received, activity_main, activity_chat)
+- [ ] 3. Create adapters (`ContactAdapter.kt`, `MessageAdapter.kt`)
+- [ ] 4. Implement `MainActivity.kt` (Contact list) and `ChatActivity.kt` (Chat screen with auto-reply simulation)
+- [ ] 5. Update AndroidManifest.xml to register `ChatActivity`
+- [ ] 6. Build and verify app compilation
