@@ -5,22 +5,22 @@
     android:id="@+id/mainChat"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     android:orientation="vertical"
     tools:context=".ChatActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        app:elevation="2dp">
+        android:background="#007AFF">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/chatToolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#FFFFFF"
+            android:background="#007AFF"
             app:navigationIcon="?attr/homeAsUpIndicator"
-            app:navigationIconTint="#111111">
+            app:navigationIconTint="@android:color/white">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="12dp"
                     android:text="Contact Name"
-                    android:textColor="#111111"
+                    android:textColor="@android:color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -64,7 +64,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:background="@android:color/white"
         android:elevation="8dp"
         android:gravity="center_vertical"
         android:orientation="horizontal"
@@ -79,6 +79,8 @@
             android:hint="Type a message"
             android:maxLines="4"
             android:padding="12dp"
+            android:textColor="#111111"
+            android:textColorHint="#888888"
             android:textSize="16sp" />
 
         <ImageButton

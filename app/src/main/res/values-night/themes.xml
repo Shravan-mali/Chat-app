@@ -1,7 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.ChatApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <!-- Base application theme for night mode. -->
+    <style name="Base.Theme.ChatApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#007AFF</item>
+        <item name="colorPrimaryVariant">#0056B3</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
+
+    <style name="Theme.ChatApp" parent="Base.Theme.ChatApp" />
 </resources>
